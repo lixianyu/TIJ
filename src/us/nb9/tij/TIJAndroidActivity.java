@@ -1,5 +1,6 @@
 package us.nb9.tij;
 
+import us.nb9.tij.holding.AddingGroups;
 import us.nb9.tij.strings.ArrayListDisplay;
 import android.app.Activity;
 import android.os.Bundle;
@@ -19,7 +20,8 @@ public class TIJAndroidActivity extends Activity {
 
 			@Override
 			public void run() {
-				ArrayListDisplay.main(null);
+//				ArrayListDisplay.main(null);
+				AddingGroups.main(null);
 			}
     		
     	}).start();
